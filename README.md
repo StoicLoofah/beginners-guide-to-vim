@@ -19,7 +19,7 @@ Hopefully this guide is applicable to others as well.
 
 The basics of any text editor is being able to edit text, and vim is trickier than typing and deleting. The best way to learn it is to use `vimtutor`, a tutorial built into vim that you can launch from your console. Go through it first to learn the basics, then do it again in a week after using vim for real.
 
-* [http://linuxcommand.org/man_pages/vimtutor1.html](vimtutor man page)
+* [vimtutor man page](http://linuxcommand.org/man_pages/vimtutor1.html)
 
 ## 2. Split Screen
 
@@ -37,19 +37,19 @@ Search online for more split commands (there are a lot).
 
 `#` and `*` search for the word currently under your cursor.
 
-* [http://vim.wikia.com/wiki/Search_and_replace](Vim Tips wiki) - The "Details" section is pretty good
-* [http://usevim.com/2012/04/06/search-and-replace-files/](Search and Replace on Multiple Files) - This is really great technique for doing semi-automated renaming. For doing fully-automated renaming, I recommend using `sed` or a shell script
+* [Vim Tips wiki](http://vim.wikia.com/wiki/Search_and_replace) - The "Details" section is pretty good
+* [Search and Replace on Multiple Files](http://usevim.com/2012/04/06/search-and-replace-files/) - This is really great technique for doing semi-automated renaming. For doing fully-automated renaming, I recommend using `sed` or a shell script
 
 ## 5. Editing your vim configuration
 
 vim is extremely deep because it is extremely customizable. This includes simple settings such as tab widths or case sensitivity in search, but it also includes syntax highlighting by file type and rich plugins.
 
-My dotfiles are [https://github.com/StoicLoofah/dotfiles](available on github) to see my settings in my `.vimrc`. There are 2 semi-standard settings that have been tremendous for me personally:
+My dotfiles are [available on github](https://github.com/StoicLoofah/dotfiles) to see my settings in my `.vimrc`. There are 2 semi-standard settings that have been tremendous for me personally:
 
 * `imap jj <Esc>` - Type 'jj' to exit insert mode. This saves the stretch for the escape key or for ctrl-{
 * `nnoremap ; :`, `nnoremap ; :` - You type colon far more often than semi-colon, so this swaps those
 
-Currently, I would recommend [https://github.com/VundleVim/Vundle.vim](Vundle) as your plugin manager.
+Currently, I would recommend [Vundle](https://github.com/VundleVim/Vundle.vim) as your plugin manager.
 
 ## 7. GNU screen
 
@@ -59,8 +59,8 @@ Technically this is outside of vim, but I find `screen` to be indispensible in m
 2. shell - everything else I use outside of vim, including ack, git, scripts, file system management, etc.
 3. server - for web dev, you usually have to run a Django/Rails/Node development server, so I just keep that running in a separate shell
 
-* [https://www.mattcutts.com/blog/a-quick-tutorial-on-screen/](Matt Cutts screen tutorial) - the really, really short screen tutorial
-* [https://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/](rackaid screen tutorial) - the best screen tutorial I have found
+* [Matt Cutts screen tutorial](https://www.mattcutts.com/blog/a-quick-tutorial-on-screen/) - the really, really short screen tutorial
+* [rackaid screen tutorial](https://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/) - the best screen tutorial I have found
 
 Note that you can also create a .screenrc to customize your screens as well.
 
@@ -68,26 +68,26 @@ Note that you can also create a .screenrc to customize your screens as well.
 
 Macros allow you to record a series of commands and repeat them again. Very useful for repetitive tasks
 
-* [http://vim.wikia.com/wiki/Macros](Vim Tips wiki)
-* [http://stackoverflow.com/a/356059](rampion on how to edit multiple lines on StackOverflow) - this isn't really a macro, but it's a very common pattern that I have used
+* [Vim Tips wiki](http://vim.wikia.com/wiki/Macros)
+* [rampion on how to edit multiple lines on StackOverflow](http://stackoverflow.com/a/356059) - this isn't really a macro, but it's a very common pattern that I have used
 
 ## 9. Marks
 
 Marks record your cursor position, which you can use as a "bookmark" or in combination with other commands. I usually use uppercase marks because I'm bouncing between so many files
 
-* [http://vim.wikia.com/wiki/Using_marks](Vim Tips wiki)
+* [Vim Tips wiki](http://vim.wikia.com/wiki/Using_marks)
 
 ## 10. Registers
 
 Registers are basically a multi-clipboard. I like using registers when I am replacing repetitive code since the unnamed register keeps getting overwritten when I delete lines of code.
 
-* [http://usevim.com/2012/04/13/registers/](usevim)
+* [usevim](http://usevim.com/2012/04/13/registers/)
 
 ## 11. References
 
-* [http://stackoverflow.com/a/1220118](Jim Dennis on grokking vi) - a long but also deep StackOverflow answer on how vim works
-* [http://vim.wikia.com/wiki/Vim_Tips_Wiki](Vim Tips wiki) - it's not very well-organized, but you will stumble across this site often while googling for vim tips
-* [http://blog.zanbato.com/2014/10/07/useful-tools-for-django-development/](List of Django dev tools) - for life outside of vim, here's a full stack of tools you can use for Django development
+* [Jim Dennis on grokking vi](http://stackoverflow.com/a/1220118) - a long but also deep StackOverflow answer on how vim works
+* [Vim Tips wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki) - it's not very well-organized, but you will stumble across this site often while googling for vim tips
+* [List of Django dev tools](http://blog.zanbato.com/2014/10/07/useful-tools-for-django-development/) - for life outside of vim, here's a full stack of tools you can use for Django development
 
 ## 12. So much more!
 
