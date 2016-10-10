@@ -4,14 +4,14 @@ Through your coding career, you have likely had brief encounters with vi while l
 
 Hopefully this guide can provide structure for how to learn vim. Note that this will not provide a laundry list of specific commands to learn as there are plenty of guides out there. However, there's really only one way to learn, and it's a tough learning curve.
 
-## Our perspective
+## My perspective
 
-vim is versatile, and this guide is written from the perspective of engineers who (mostly):
+vim is versatile, and this guide is written from the perspective an engineer who (mostly):
 
-* use Macs
+* uses a Mac
 * `ssh` into Ubuntu virtual private servers (e.g. AWS EC2 instances)
-* write Python/Django and JavaScript/React
-* build a web application
+* writes Python/Django and JavaScript/React
+* builds a web application
 
 Hopefully this guide is applicable to others as well.
 
