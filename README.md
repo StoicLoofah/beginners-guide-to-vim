@@ -2,7 +2,7 @@
 
 Through your coding career, you have likely had brief encounters with vi while looking over your coworker's shoulder or tweaking a server setup script. It looks arcane, and it's hard to tell if it's just an old habit of some coders or if it will actually make you more productive.
 
-Hopefully this guide can provide structure for how to learn vim. Note that this will not provide a laundry list of specific commands to learn as there are plenty of guides out there. However, there's really only one way to learn, and it's a tough learning curve.
+This guide is light on actual content and is intended to provide structure for how to learn vim. In truth, the only way to learn vim is to use it. The learning curve is steep but well worth it.
 
 ## My perspective
 
@@ -15,9 +15,9 @@ vim is versatile, and this guide is written from the perspective an engineer who
 
 Hopefully this guide is applicable to others as well.
 
-## 1. Movement
+## 1. Movement and editing
 
-The basics of any text editor is being able to edit text, and vim is trickier than typing and deleting. The best way to learn it is to use `vimtutor`, a tutorial built into vim that you can launch from your console. Go through it first to learn the basics, then do it again in a week after using vim for real.
+The basics of any text editor is being able to edit text, and vim is trickier than typing and deleting. There are plenty of cheatsheets and laundry lists of commands, so we won't add another here. The best way to learn it is to use `vimtutor`, a tutorial built into vim that you can launch from your console. Go through it first to learn the basics, then do it again in a week after using vim for real.
 
 * [vimtutor man page](http://linuxcommand.org/man_pages/vimtutor1.html)
 
