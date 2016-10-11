@@ -87,6 +87,7 @@ Registers are basically a multi-clipboard. I like using registers when I am repl
 
 * [Jim Dennis on grokking vi](http://stackoverflow.com/a/1220118) - a long but also deep StackOverflow answer on how vim works
 * [Vim Tips wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki) - it's not very well-organized, but you will stumble across this site often while googling for vim tips
+* [Vim Awesome](http://vimawesome.com/) - index of vim plugins
 * [List of Django dev tools](http://blog.zanbato.com/2014/10/07/useful-tools-for-django-development/) - for life outside of vim, here's a full stack of tools you can use for Django development
 
 ## 12. So much more!
